@@ -1,0 +1,23 @@
+.nav-container{
+  display: block;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand{
+    color: #2A4FC3;
+}
+.navbar-nav li a {
+    color: #172d6e;
+}
+
+.navbar-nav li a:hover {
+    color: #547ED7;
+}
+
+.active {
+    color: #547ED7;
+}
