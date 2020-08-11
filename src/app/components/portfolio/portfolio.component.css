@@ -1,0 +1,24 @@
+.portfolio-container{}
+.portfolio-tabs{
+  text-align: center;
+}
+.nav-pills{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav-link{
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: #ECF5FF;
+  color: #007BFF;
+  margin: 0 10px;
+}
+.nav-link.active{
+  background-color: #007BFF;
+  color: #fff;
+}
+.nav-link:hover{
+  background-color: #007BFF;
+  color: #fff;
+}
