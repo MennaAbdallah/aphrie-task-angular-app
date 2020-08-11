@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+html{
+  height:100%;
+  width: 100%;
+}
+.row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+div[class*="col"]{
+  display: inline-block;
+}
+.white-bold{
+  color: white;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.blue-bold{
+  color: #a6c8fa;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.blue-bold:hover{
+  color: #fff;
+}
+.title{
+  font-size: 30px;
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+.description{
+  text-align: center;
+  color: #999;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.sub-title{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.body-text{
+  font-size: 16px;
+  color: #999;
+}
