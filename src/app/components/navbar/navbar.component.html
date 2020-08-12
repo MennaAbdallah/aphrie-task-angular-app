@@ -1,33 +1,35 @@
 <div class="nav-container">
-<div class="container">
-<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white">
-    <a class="navbar-brand"  href="#">Aphrie Task</a>
-
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#"> {{"HOME" | translate}} <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> {{"ABOUT_US" | translate}} </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> {{"PORTFOLIO" | translate}} </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"> {{"TEAM" | translate}} </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"> {{"CONTACT_US" | translate}} </a>
-        </li>
-        <li class="nav-item">
-          <button class="btn btn-link" (click)="changeCurrentLang('en')"> English </button>
-        </li>
-        <li class="nav-item">
-          <button class="btn btn-link" (click)="changeCurrentLang('ar')"> العربية </button>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <div class="container">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand"  href="#">Aphrie Task</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#intro"> {{"HOME" | translate}} <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about"> {{"ABOUT_US" | translate}} </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio"> {{"PORTFOLIO" | translate}} </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#team"> {{"TEAM" | translate}} </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#contact"> {{"CONTACT_US" | translate}} </a>
+      </li>
+      <li class="nav-item">
+        <button class="btn btn-link" (click)="changeCurrentLang('en')"> English </button>
+      </li>
+      <li class="nav-item">
+        <button class="btn btn-link" (click)="changeCurrentLang('ar')"> العربية </button>
+      </li>
+    </ul>
+  </div>
+</nav>
 </div>
 </div>
