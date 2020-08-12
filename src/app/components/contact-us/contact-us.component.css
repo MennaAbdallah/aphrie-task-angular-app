@@ -1,0 +1,32 @@
+.btn{
+  border-radius: 20px;
+}
+.message-input{
+  height: 100px;
+}
+.contact-map iframe{
+  width: 100%;
+  height: 300px;
+}
+.contact-details-wrapper{
+  margin-bottom: 40px;
+}
+.contact-details{
+  padding: 0;
+
+}
+.contact-details i{
+  margin-right: 10px;
+  color: #007BFF;
+  font-size: 16px;
+}
+.contact-details label{
+display: inline;
+font-size: 12px;
+word-wrap: break-word !important;
+}
+.contact-form-btn-container{
+  display: flex;
+  justify-content: center;
+}
+
