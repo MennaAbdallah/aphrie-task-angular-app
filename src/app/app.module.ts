@@ -1,3 +1,4 @@
+import { CoreModule } from './core/core.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -14,6 +15,9 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { WhyChooseUsComponent } from './components/why-choose-us/why-choose-us.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { TeamComponent } from './components/team/team.component';
+import { OurClientsComponent } from './components/our-clients/our-clients.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +28,16 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
     AboutUsComponent,
     WhyChooseUsComponent,
     PortfolioComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    TeamComponent,
+    OurClientsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    CoreModule,
     TranslateModule.forRoot({
       defaultLanguage: 'en',
       loader: {
