@@ -1,0 +1,27 @@
+.clients-container{
+  background-color: #ECF5FF;
+  margin-top: 40px;
+  padding: 0 0 40px 0;
+  box-shadow: inset 1px 0 10px rgba(0, 0, 0, 0.1);
+}
+.clients-images-container{
+  margin: 40px auto;
+}
+.clients-img
+{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border: solid 1px #ECF5FF;
+  padding: 40px 20px;
+  background-color: #fff;
+  width: calc(100% - 40px);
+  height: auto;
+}
+.clients-img img{
+  max-width: 100%;
+  width: auto;
+  height: 40px;
+  display: block;
+}
+
