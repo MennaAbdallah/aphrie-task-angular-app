@@ -23,7 +23,7 @@ export class TestimonialsComponent implements OnInit {
 
   getTestimonials() {
     this.apiService.getTestimonials().subscribe((resp: TestimonialsResponse) => {
-      this.testimonials = resp.data;
+      this.testimonials = resp.data.slice(0, 5);
     });
   }
 }
