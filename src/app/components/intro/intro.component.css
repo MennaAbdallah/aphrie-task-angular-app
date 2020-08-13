@@ -62,3 +62,8 @@
     text-align: center;
   }
 }
+@media (max-width: 575.98px) {
+  .intro-container{
+    height: 500px;
+  }
+}

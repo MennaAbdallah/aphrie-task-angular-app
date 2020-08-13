@@ -64,3 +64,8 @@
   margin: 15px auto;
 }
 }
+@media (max-width: 575.98px) {
+  .why-us-description{
+    width: 100%;
+  }
+}

@@ -24,4 +24,8 @@
   height: 40px;
   display: block;
 }
-
+@media (max-width: 575.98px) {
+  .clients-img{
+    width: 100%;
+  }
+}
