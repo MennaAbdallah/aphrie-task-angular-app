@@ -1,27 +1,27 @@
 # AphrieTaskAngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
+## Installation
+
+Install the repository locally on your device.
+
+Run `git clone https://github.com/MennaAbdallah/aphrie-task-angular-app`
+
+Then change directory using `cd aphrie-task-angular-app`
+
+### For package installation and node_modules
+
+Run `npm i`
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## About
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This angular app :
+1. is a single page application.
+2. provides 2 languages translation { English and Arabic }.
+3. is responsive for mobile phones.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
