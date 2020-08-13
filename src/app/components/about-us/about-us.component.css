@@ -6,6 +6,9 @@
   display: flex;
   align-items: flex-start;
 }
+.about-content-reverse{
+  flex-direction: row-reverse;
+}
 .about-list{
   padding: 0;
   list-style: none;
@@ -44,4 +47,7 @@
    width: 100%;
  }
  @media (max-width: 575.98px) {
+   .about-content {
+     flex-direction: column;
+   }
  }
