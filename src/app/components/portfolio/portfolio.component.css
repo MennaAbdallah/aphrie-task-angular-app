@@ -14,7 +14,7 @@
   text-align: center;
   background-color: rgba(46, 115, 190, 0.5);
   color: #fff;
-  z-index: 100;
+  z-index: 50;
 }
 .portfolio-img-wrapper:hover .portfolio-img-tooltip{
   display: block;
@@ -29,7 +29,6 @@
   border-radius: 100%;
   width: 30px;
   height: 30px;
-  padding: 0 10px;
   margin: 5px;
   text-align: center;
   line-height: 30px;
