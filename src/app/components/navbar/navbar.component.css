@@ -1,14 +1,21 @@
 .nav-container{
   display: block;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   width: 100%;
   background-color: #fff;
   top: 0;
   box-shadow: 1px 0 10px rgba(0, 0, 0, 0.1);
 }
+.navbar-collapse{
+  justify-content: flex-end;
+}
 .navbar-brand{
     color: #2A4FC3;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: flex-end;
 }
 .navbar-nav li a {
     color: #172d6e;
