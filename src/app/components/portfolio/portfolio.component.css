@@ -1,4 +1,40 @@
-.portfolio-container{}
+.portfolio-container{
+
+}
+.portfolio-img-wrapper{
+  position: relative;
+  cursor: pointer;
+}
+.portfolio-img-wrapper .portfolio-img-tooltip{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(46, 115, 190, 0.5);
+  color: #fff;
+  z-index: 100;
+}
+.portfolio-img-wrapper:hover .portfolio-img-tooltip{
+  display: block;
+}
+.portfolio-img-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.portfolio-img-icons a{
+  background-color: #007BFF;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  padding: 0 10px;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
 .portfolio-tabs{
   text-align: center;
 }
