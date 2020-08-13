@@ -32,3 +32,33 @@
   margin-left: 10%;
   width: 12rem;
 }
+@media (max-width: 575.98px) {
+  .intro-container{
+    height: 100%;
+  }
+  .intro-content{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .intro-img-style{
+    margin-top: 20px;
+  }
+  .btn.btn-primary{
+    width: 8rem;
+    height: 30px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .btn.btn-outline-light{
+    width: 8rem;
+    height: 30px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .intro-inner-buttons{
+    justify-content: center;
+  }
+  .intro-left-section{
+    text-align: center;
+  }
+}
