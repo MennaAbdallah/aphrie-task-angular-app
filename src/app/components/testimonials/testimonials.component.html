@@ -3,31 +3,35 @@
     <div class="container">
       <h1 class="title">Testimonials</h1>
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
         <div class="carousel-inner">
           <ng-container *ngFor="let testimonial of testimonials; first as isFirst">
             <div *ngIf="isFirst else notactive" class="carousel-item active">
               <img src="{{testimonial.avatar}}" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="carousel-caption d-md-block">
+                <h5 class="testimonial-name">{{testimonial.first_name}} {{testimonial.last_name}}</h5>
+                <label class="testimonial-position">Ceo & Founder</label>
+                <p class="testimonial-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
             <ng-template #notactive>
               <div class="carousel-item">
                 <img src="{{testimonial.avatar}}" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="carousel-caption d-md-block">
+                  <h5 class="testimonial-name">{{testimonial.first_name}} {{testimonial.last_name}}</h5>
+                  <label class="testimonial-position">Software developer</label>
+                  <p class="testimonial-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
               </div>
             </ng-template>
           </ng-container>
         </div>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        </ol>
       </div>
     </div>
   </div>
